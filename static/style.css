@@ -1,0 +1,25 @@
+/* Styles for the body element */
+body {
+    /* Set font family to Arial */
+    font-family: Arial;
+    /* Set background color */
+    background: #f4f4f4;
+    /* Center align text */
+    text-align: center;
+}
+
+/* Styles for input elements */
+input {
+    /* Set margin around inputs */
+    margin: 5px;
+    /* Set padding inside inputs */
+    padding: 8px;
+}
+
+/* Styles for button elements */
+button {
+    /* Set padding for button */
+    padding: 10px 15px;
+    /* Set cursor to pointer on hover */
+    cursor: pointer;
+}

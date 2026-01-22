@@ -1,0 +1,45 @@
+<!-- Document type declaration -->
+<!DOCTYPE html>
+<!-- Root HTML element -->
+<html>
+<!-- Head section containing metadata -->
+<head>
+    <!-- Page title -->
+    <title>Wine Cultivar Prediction</title>
+    <!-- Link to external CSS stylesheet -->
+    <link rel="stylesheet" href="/static/style.css">
+<!-- End of head section -->
+</head>
+<!-- Body section containing visible content -->
+<body>
+    <!-- Main heading -->
+    <h2>Wine Cultivar Origin Prediction</h2>
+
+    <!-- Form for user input, submits via POST -->
+    <form method="POST">
+        <!-- Input field for alcohol -->
+        <input name="alcohol" placeholder="Alcohol" required>
+        <!-- Input field for malic acid -->
+        <input name="malic_acid" placeholder="Malic Acid" required>
+        <!-- Input field for magnesium -->
+        <input name="magnesium" placeholder="Magnesium" required>
+        <!-- Input field for total phenols -->
+        <input name="total_phenols" placeholder="Total Phenols" required>
+        <!-- Input field for color intensity -->
+        <input name="color_intensity" placeholder="Color Intensity" required>
+        <!-- Input field for proline -->
+        <input name="proline" placeholder="Proline" required>
+        <!-- Submit button -->
+        <button type="submit">Predict</button>
+    <!-- End of form -->
+    </form>
+
+    <!-- Conditional block to display prediction if available -->
+    {% if prediction %}
+        <!-- Display the prediction result -->
+        <h3>Predicted Wine Origin: {{ prediction }}</h3>
+    {% endif %}
+<!-- End of body section -->
+</body>
+<!-- End of HTML document -->
+</html>
