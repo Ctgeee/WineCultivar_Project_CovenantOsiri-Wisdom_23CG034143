@@ -3,4 +3,4 @@ Matric Number: 23CG034143
 Machine Learning Algorithm Used: LightGBM (Multiclass Classification)
 Model Persistence Method: Joblib
 Live URL: https://your-app-link-here
-GitHub Repository: https://github.com/your-username/WineCultivar_Project
+GitHub Repository: https://github.com/Ctgeee/WineCultivar_Project_CovenantOsiri-Wisdom_23CG034143.git
